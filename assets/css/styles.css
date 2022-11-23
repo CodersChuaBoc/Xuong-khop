@@ -1,0 +1,154 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;700;800&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-family: "Montserrat", sans-serif;
+  font-size: 1.8rem;
+  font-weight: 400;
+  color: #ffffff;
+  background-color: #1e1e1e;
+}
+
+.doctor-mobile {
+  display: none;
+}
+
+.container {
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  width: 100%;
+  overflow: hidden;
+  height: 100vh;
+}
+
+.app {
+  max-width: 1512px;
+  width: 100%;
+  margin: 0 auto;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 28px 74px 0;
+}
+
+.nav-item {
+  text-decoration: none;
+  color: #ffffff;
+  font-weight: 600;
+  font-size: 2.4rem;
+  line-height: 29px;
+}
+
+.nav-item + .nav-item {
+  margin-left: 64px;
+}
+
+.logo img {
+  width: 172px;
+}
+
+.content {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+}
+
+.detail {
+  width: 64%;
+  margin-top: 70px;
+    padding-left: 20px;
+}
+
+.text-header {
+  font-weight: 700;
+  font-size: 2.4rem;
+  line-height: 29px;
+  color: #ffd700;
+}
+
+.doctor-name {
+  font-weight: 800;
+  font-size: 9.6rem;
+  line-height: 117px;
+  color: #30cd59;
+}
+
+.desc {
+  font-weight: 500;
+  font-size: 2.1rem;
+  line-height: 26px;
+  text-align: justify;
+  color: #edf2f4;
+}
+
+.doctor {
+  flex-shrink: 0;
+  position: relative;
+    margin-top: 39px;
+    margin-left: 145px;
+    margin-right: 90px;
+    width: 502px;
+    height: 660px;
+    background: #ff0000;
+    border-radius: 131px 0px 0px 0px;
+}
+
+.doctor img {
+  position: absolute;
+  width: 548px;
+  left: -24px;
+  bottom: 0;
+}
+
+.btn-more {
+  font-weight: 800;
+  font-size: 1.8rem;
+  line-height: 23px;
+  padding: 12px 30px;
+  background: #1878f3;
+  border-radius: 32px;
+  outline: none;
+  border: none;
+  margin-top: 20px;
+  float: right;
+}
+
+.footer {
+  width: 100%;
+  padding: 0 80px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 126px;
+  background-color: #070A11;
+}
+
+.text-contact {
+  text-align: center;
+  margin: 12px 0;
+  font-weight: 600;
+  font-size: 30px;
+  line-height: 37px;
+}
+
+.socials {
+  margin-bottom: 6px;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
