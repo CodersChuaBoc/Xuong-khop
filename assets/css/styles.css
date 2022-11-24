@@ -10,12 +10,16 @@ html {
   font-size: 62.5%;
 }
 
+.mb12 {
+  margin-bottom: 20px;
+}
+
 body {
   font-family: "Montserrat", sans-serif;
   font-size: 1.8rem;
   font-weight: 400;
   color: #ffffff;
-  background-color: #1e1e1e;
+  background-color: #1e1e1e !important;
   touch-action: pan-x pan-y;
 }
 
@@ -29,7 +33,6 @@ body {
   justify-content: space-between;
   flex-direction: column;
   width: 100%;
-  overflow: hidden;
   height: 100vh;
 }
 
@@ -38,6 +41,7 @@ body {
   height: 100%;
   width: 100%;
   margin: 0 auto;
+  
 }
 
 .header {
@@ -72,14 +76,14 @@ body {
 
 .detail {
   width: 64%;
-  margin-top: 70px;
-    padding-left: 20px;
+  margin-top: 115px;
+    padding-left: 25px;
 }
 
 .text-header {
   font-weight: 700;
-  font-size: 2.4rem;
-  line-height: 29px;
+  font-size: 3.0rem;
+  line-height: 40px;
   color: #ffd700;
 }
 
@@ -92,8 +96,9 @@ body {
 
 .desc {
   font-weight: 500;
-  font-size: 2.1rem;
+  font-size: 2.2rem;
   line-height: 26px;
+  margin-top: 12px;
   text-align: justify;
   color: #edf2f4;
 }
@@ -126,8 +131,14 @@ body {
   border-radius: 32px;
   outline: none;
   border: none;
-  margin-top: 20px;
+  margin-top: 18px;
   float: right;
+}
+
+.btn-more:hover {
+  color: inherit;
+  opacity: 0.8;
+  transition: opacity 0.3 ease-in-out;
 }
 
 .footer {
@@ -138,13 +149,31 @@ body {
   justify-content: space-between;
   height: 126px;
   background-color: #070A11;
+  bottom: 0;
+  position: absolute;
+}
+
+.another-footer {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 500px;
+  background-color: #070A11;
+}
+
+.card-header {
+  display: flex;
+  padding: 0px;
+  justify-content: center;
+  align-items: center;
 }
 
 .text-contact {
   text-align: center;
-  margin: 12px 0;
-  font-weight: 600;
-  font-size: 30px;
+  margin: 25px 0 10px;
+  font-weight: 800;
+  font-size: 33px;
   line-height: 37px;
 }
 
@@ -152,6 +181,5 @@ body {
   margin-bottom: 6px;
   width: 100%;
   display: flex;
-  justify-content: space-between;
   align-items: center;
 }
