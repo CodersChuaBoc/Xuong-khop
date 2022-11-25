@@ -159,12 +159,12 @@
     margin: 0 0 -10px;
   }
   .doctor-mobile {
-  top:96px;
+  top:88px;
   right: 24px;
   }
   .doctor-mobile  img{
 
-    width: 80px;
+    width: 76px;
     object-fit: cover;
   }
   .nav-item + .nav-item {
@@ -181,7 +181,7 @@
   .text-header
   {
     font-size:1.4rem;
-    margin: -6px 0px -3px;
+    margin: -16px 0px -3px;
   }
   .socials div{
     width: 100%;
